@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/*Body style*/
+body {
+  font-family: Times New Roman;
+  margin: 0;
+  padding:0;
+  background:white;
+}
+
+
+.logo{
+width:70%;
+height: auto;
+}
+
+
+.prof{
+  width: 60%;
+  height: auto;
+}
+
+
+
+
+.header {
+  padding: 50px;
+  text-align: left;
+  background: whitesmoke;
+  color: black;
+  font-family: playfair display;
+  font-size: 40px;
+}
+
+.introduction{
+  padding: 50px;
+  text-align: center;
+  background: whitesmoke;
+  color: black;
+  font-family: monospace;
+}
+
+.experience{
+  padding: 50px;
+  text-align: center;
+  background: whitesmoke;
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+
+.project{
+  padding: 50px;
+  text-align: center;
+  background: whitesmoke;
+  color: black;
+  font-family: monospace;
+
+}
+
+.portfolio{
+  padding:50px;
+  text-align: center;
+  background:whitesmoke;
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+
+
+.video{
+  margin-left: 15vw;
+  transform: translate(-15);
+  background: whitesmoke;
+
+
+}
+
+
+.video2{
+  margin-left: 52vw;
+  transform: translate(-52);
+  background: whitesmoke;
+
+}
+
+.image{
+  margin-left: 15vw;
+  transform: translate(-15);
+  background: whitesmoke;
+
+}
+
+
+
+.sub1{
+  font-family: monospace;
+  background-color: grey;
+  color:whitesmoke;
+  text-align: center;
+}
+
+
+.sub2{
+  font-family: monospace;
+  background-color: grey;
+  color:whitesmoke;
+  text-align: center;
+}
+
+.sub3{
+  font-family: monospace;
+  background-color: grey;
+  color:whitesmoke;
+  text-align: center;
+
+}
+
+
+.education{
+  padding:50px;
+  text-align: left;
+  background:whitesmoke;
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+/*Social media section*/
+.fa{
+  padding:20px;
+  font-size:30px;
+  width:50px;
+  text-align: center;
+  text-decoration: none;
+  margin:5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.fa-facebook {
+  background: royalblue;
+  color: white;
+
+}
+
+.fa-linkedin {
+  background: darkblue;
+  color: white;
+}
+
+.fa-google {
+  background: indianred;
+  color: white;
+}
+
+
+
+/* navigation bar */
+.navbar {
+  display: flex;
+  background-color: white;
+  font-size: 30px;
+  font-family: playfair;
+
+}
+
+/* navigation's bar buttons */
+.navbar a {
+  color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: darkgrey;
+  color: black;
+}
+
+
+
+/* Footer styling */
+.Contact {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+
+.column {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%%;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+
+
+.column img {
+  margin-top: 7px;
+  vertical-align: middle;
+  width: 90%;
+}
+
+.Contact{
+  background-color: #dbd4d9;
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 40%;
+    flex: 40%;
+    max-width: 40%;
+  }
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
